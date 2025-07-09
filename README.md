@@ -5,9 +5,10 @@ Este projeto implementa algoritmos para calcular a Transformada Discreta de Four
 ## 📁 Estrutura do Projeto
 
 ```
-atividade_sinais/
+sinais_sistemas/
 ├── dft/
-│   └── dft_matrix.cpp      # Implementação da DFT usando matriz de Vandermonde
+│   ├── dft_matrix.cpp      # Implementação da DFT usando matriz de Vandermonde
+│   └── Makefile   
 ├── fft/
 │   ├── fft.cpp             # Implementação da FFT usando algoritmo divide-e-conquista
 │   └── Makefile            # Arquivo de compilação para FFT
